@@ -99,7 +99,7 @@ h1, p, ul, li, img {
 }
 
 .sites li:hover {
-	border-color: #C78C19;
+	border-color: slate-blue;
 }
 
 .sites li:active {
