@@ -1,11 +1,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
-  background: linear-gradient(
-    to right,
-    rgba(72, 61, 139, 1) 0%,
-    rgba(158, 151, 200, 1) 50%,
-    rgba(221, 212, 238, 1) 100%
+  
   );
   margin: 0 auto;
   padding: 0;
