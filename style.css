@@ -17,10 +17,14 @@ body {
   width:50%;
   height:50%;
 }
-site
+
 .center {
-  text-align:center;
+  margin: auto;
+  width: 50%;
+
+  padding: 10px;
 }
+
 
 .caixa {
   position: relative;
@@ -113,22 +117,26 @@ h1, p, ul, li, img {
 	font-size: 36px;
 }
 
-a:link {
+.passagem {
+    font-size: 36px;
+}
+
+.passagem a:link {
 	text-decoration:none;
 	color:black;
 }
 
-a:visited {
+.passagem a:visited {
 	text-decoration:none;
 	color:black;
 }
 
-a:hover {
+.passagem a:hover {
 	text-decoration:none;
 	color:slate-blue;
 }
 
-a:active {
+.passagem a:active {
 	text-decoration:none;
-	color:slate-blue
+	color:slate-blue;
 }
