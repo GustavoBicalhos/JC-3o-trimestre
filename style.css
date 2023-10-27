@@ -1,8 +1,6 @@
 body {
-  font-family: 'Imbue', serif;
+  font-family: 'Prata', serif;
   font-size: 36px;
-
-  );
   margin: 0 auto;
   padding: 0;
   margin-top: 100px;
@@ -42,12 +40,12 @@ footer {
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 1;produto
+  z-index: 1;
 }
 
 nav ul {
   list-style: none;
-  padding: 0;
+  padding:0;
   white-space:nowrap;
 }
 
@@ -59,9 +57,9 @@ nav li {
 nav a {
   color: #fff;
   text-decoration: none;
-  white-space: nowrap; /* Impede a quebra de linha */
-  overflow: hidden; /* Esconde o texto que não couber */
-  text-overflow: ellipsis; /* Adiciona reticências (...) no final do texto escondido */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
 }
 
 nav a:hover {
@@ -69,7 +67,7 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-h1, p, ul, li, img {
+h1, p, ul, li, img, a {
   margin: 0;
   padding: 0;
   margin-top: 20px;
@@ -87,7 +85,7 @@ h1, p, ul, li, img {
 	display: inline-block;
 	text-align: center;
 	width: 300px;
-  height:300px;
+  height: 360px;
 	vertical-align: top;
 	margin: 0 1.5%;
 	padding: 30px 20px;
@@ -97,11 +95,11 @@ h1, p, ul, li, img {
 }
 
 .sites li:hover {
-	border-color: slate-blue;
+	border-color: slateblue
 }
 
 .sites li:active {
-	border-color: #088C19;
+	border-color: black;
 }
 
 .sites li:hover h2 {
@@ -113,17 +111,29 @@ h1, p, ul, li, img {
 	font-weight: bold;
 }
 
+.sites {
+	font-size: 36px;
+}
+
 .site-descricao {
 	font-size: 36px;
 }
 
 .passagem {
-    font-size: 36px;
+  font-size: 36px;
+    
+}
+
+#passagem {
+  font-weight: bold;
+  font-style: italic;
 }
 
 .passagem a:link {
 	text-decoration:none;
 	color:black;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .passagem a:visited {
