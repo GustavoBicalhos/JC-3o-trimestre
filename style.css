@@ -6,11 +6,11 @@ body {
   margin-top: 100px;
   max-width:1300px;
   overflow-x: hidden;
-  background: rgb(182,182,182);
-  background: -moz-linear-gradient(0deg, rgba(182,182,182,1) 0%, rgba(255,255,255,1) 100%);
-  background: -webkit-linear-gradient(0deg, rgba(182,182,182,1) 0%, rgba(255,255,255,1) 100%);
-  background: linear-gradient(0deg, rgba(182,182,182,1) 0%, rgba(255,255,255,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b6b6b6",endColorstr="#ffffff",GradientType=1);
+  background: rgb(112,112,112);
+  background: -moz-linear-gradient(0deg, rgba(112,112,112,1) 0%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(112,112,112,1) 0%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(0deg, rgba(112,112,112,1) 0%, rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#707070",endColorstr="#ffffff",GradientType=1);
 }
 
 .centerImage {
@@ -55,7 +55,7 @@ nav ul {
 }
 
 nav li {
-  display: inline;
+  display: inline-block;
   margin-right: 20px;
 }
 
@@ -68,12 +68,11 @@ nav a {
 }
 
 nav a:hover {
-	color:slateblue;
 	text-decoration: underline;
 }
 
 h1, p, ul, li, img, a {
-  margin: 0;
+  margin-top: 0;
   padding: 0;
   margin-top: 20px;
 
@@ -83,24 +82,24 @@ h1, p, ul, li, img, a {
 .sites {
 	width: 940px;
 	margin: 0 auto;
-	padding: 50px 0;
+	padding: 50px;
 }
 
 .sites li {
 	display: inline-block;
 	text-align: center;
-	width: 300px;
-  height: 360px;
+	width: 30%;
+  height: 347.2px;
 	vertical-align: top;
-	margin: 0 1.5%;
-	padding: 30px 20px;
+	margin: auto;
+	padding: 30px;
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 10px;
 }
 
 .sites li:hover {
-	border-color: slateblue
+	border-color:black
 }
 
 .sites li:active {
@@ -108,7 +107,11 @@ h1, p, ul, li, img, a {
 }
 
 .sites li:hover h2 {
-	font-size: 31px;
+	font-size: 30px;
+}
+
+.sites a {
+  color:black;
 }
 
 .sites h2 {
@@ -116,12 +119,8 @@ h1, p, ul, li, img, a {
 	font-weight: bold;
 }
 
-.sites {
-	font-size: 36px;
-}
-
 .site-descricao {
-	font-size: 36px;
+	font-size: 24px;
 }
 
 .passagem {
@@ -132,6 +131,7 @@ h1, p, ul, li, img, a {
 #passagem {
   font-weight: bold;
   font-style: italic;
+  margin-top: (36px*1.5);
 }
 
 .passagem a:link {
@@ -159,5 +159,16 @@ h1, p, ul, li, img, a {
 #referencia {
   text-decoration: underline;
   padding-bottom: 42px;
+  color:black;
+  font-style: normal;
+  font-weight: 400;
 }
 
+.texto-corpo {
+  text-align: justify;
+}
+
+.video {
+	width: 560px;
+	margin: 2em auto;
+}
